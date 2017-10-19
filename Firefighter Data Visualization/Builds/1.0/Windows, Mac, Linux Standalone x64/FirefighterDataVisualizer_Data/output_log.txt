@@ -1,0 +1,54 @@
+Initialize engine version: 5.5.1f1 (88d00a7498cd)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics Family (ID=0xa16)
+    Vendor:   Intel
+    VRAM:     1112 MB
+    Driver:   20.19.15.4568
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Thien\Desktop\SoftWare\fire\Firefighter Data Visualization\Builds\1.0\Windows, Mac, Linux Standalone x64\FirefighterDataVisualizer_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Thien\Desktop\SoftWare\fire\Firefighter Data Visualization\Builds\1.0\Windows, Mac, Linux Standalone x64\FirefighterDataVisualizer_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Thien\Desktop\SoftWare\fire\Firefighter Data Visualization\Builds\1.0\Windows, Mac, Linux Standalone x64\FirefighterDataVisualizer_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Thien\Desktop\SoftWare\fire\Firefighter Data Visualization\Builds\1.0\Windows, Mac, Linux Standalone x64\FirefighterDataVisualizer_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Thien\Desktop\SoftWare\fire\Firefighter Data Visualization\Builds\1.0\Windows, Mac, Linux Standalone x64\FirefighterDataVisualizer_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Thien\Desktop\SoftWare\fire\Firefighter Data Visualization\Builds\1.0\Windows, Mac, Linux Standalone x64\FirefighterDataVisualizer_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Thien\Desktop\SoftWare\fire\Firefighter Data Visualization\Builds\1.0\Windows, Mac, Linux Standalone x64\FirefighterDataVisualizer_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Thien\Desktop\SoftWare\fire\Firefighter Data Visualization\Builds\1.0\Windows, Mac, Linux Standalone x64\FirefighterDataVisualizer_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Thien\Desktop\SoftWare\fire\Firefighter Data Visualization\Builds\1.0\Windows, Mac, Linux Standalone x64\FirefighterDataVisualizer_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\Thien\Desktop\SoftWare\fire\Firefighter Data Visualization\Builds\1.0\Windows, Mac, Linux Standalone x64\FirefighterDataVisualizer_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: C:\Users\Thien\Desktop\SoftWare\fire\Firefighter Data Visualization\Builds\1.0\Windows, Mac, Linux Standalone x64\FirefighterDataVisualizer_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\Thien\Desktop\SoftWare\fire\Firefighter Data Visualization\Builds\1.0\Windows, Mac, Linux Standalone x64\FirefighterDataVisualizer_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.201 seconds
+Platform assembly: C:\Users\Thien\Desktop\SoftWare\fire\Firefighter Data Visualization\Builds\1.0\Windows, Mac, Linux Standalone x64\FirefighterDataVisualizer_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Thien\Desktop\SoftWare\fire\Firefighter Data Visualization\Builds\1.0\Windows, Mac, Linux Standalone x64\FirefighterDataVisualizer_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\Thien\Desktop\SoftWare\fire\Firefighter Data Visualization\Builds\1.0\Windows, Mac, Linux Standalone x64\FirefighterDataVisualizer_Data\Managed\System.Xml.dll (this message is harmless)
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 2160x1440 59Hz; virtual: 2160x1440 at 0,0
+<RI> Initialized touch support.
+UnloadTime: 11.921095 ms
+Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 7.029000 ms
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 733.
+Total: 1.275574 ms (FindLiveObjects: 0.065687 ms CreateObjectMapping: 0.029970 ms MarkObjects: 0.828486 ms  DeleteObjects: 0.021348 ms)
+
+ArgumentException: An invalid URI string.
+Parameter name: url
+  at WebSocketSharp.WebSocket..ctor (System.String url, System.String[] protocols) [0x00000] in <filename unknown>:0 
+  at WSNetworkManager.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at WSNetworkManager.OnApplicationQuit () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 1e14 -> priority: 1 
